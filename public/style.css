@@ -1,0 +1,34 @@
+:root {
+    --lightbg: #EFEBE4;
+    --darkbg: #344652;
+    --accent: #FFB143;
+    --textcolor: #101F2A;
+    --warningcolor: #FF4343;
+    --fontFamily: 'Montserrat', sans-serif;
+    --fontSize: 16px;
+  }
+  
+  body {
+    background-color: var(--lightbg);
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ul, ol, button, div, span, input{
+    margin: 0;
+    padding: 0;  
+    font-family: var(--fontFamily);
+    color: var(--darkbg);
+    font-size: var(--fontSize);
+  }
+  
+  li{
+    list-style:none;
+  }
+  
+  button:focus{
+    outline: none;
+  }
+  
+  a:hover, a {
+    color: inherit;
+    text-decoration: inherit;
+  }
