@@ -1,0 +1,9 @@
+.btn {
+    display: block;
+    width: 134px;
+    height: 32px;
+    background-color: inherit;
+    border-radius: 16px;
+    color: var(--textcolor);
+    border: 1px solid var(--textcolor);
+}

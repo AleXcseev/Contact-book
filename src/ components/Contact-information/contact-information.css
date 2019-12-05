@@ -1,0 +1,7 @@
+.contact-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 76px 16px 32px 16px;
+}

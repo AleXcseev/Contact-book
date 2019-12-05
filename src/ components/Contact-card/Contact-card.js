@@ -1,17 +1,17 @@
 import React from "react";
 
-import "./contact-card.css";
 
-function ContactCard (props) {
+import "./contact-card.css";
+import Avatar from "../Avatar/Avatar";
+
+function ContactCard ({ name, surname, image }) {
     return (
         <div className="contact-card">
-            <div className="avatar">
-                <img src={ props.contact.image } alt=""></img>
-            </div>
+            <Avatar image={ image }></Avatar>
             <div className="user-card">
                 <div>
                     <h3 className="user-card-name">
-                        { props.contact.name } { props.contact.surname }
+                        { name } { surname }
                     </h3>
                     <span className="user-card-text">Some text</span>
                 </div>
