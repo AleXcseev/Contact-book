@@ -1,0 +1,17 @@
+.categories {
+    max-height: 180px;
+    overflow: auto;
+    box-sizing: border-box;
+    width: 100%; 
+}
+
+.categories .title{
+    color: var(--catelement);
+    padding: 0 16px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: normal;
+    margin-bottom: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

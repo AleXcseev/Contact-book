@@ -1,0 +1,25 @@
+.avatar {
+    width: 48px;
+    height: 48px;
+    border: 2px solid var(--accent);
+    border-radius: 100%;
+    box-sizing:  border-box;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.big {
+    width: 128px;
+    height: 128px;
+}
+
+.avatar img {
+    width: 48px;
+    height: 48px;
+}
+
+.big img {
+    width: 128px;
+    height: 128px;
+}

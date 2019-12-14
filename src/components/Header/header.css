@@ -1,0 +1,142 @@
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color: var(--accent);
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 0px 8px 0px #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header .menu-btn {
+    position: absolute;
+    left: 16px;
+    top: 21px;
+    width: 24px;
+    height: 18px;
+    cursor: pointer;
+    user-select: none;
+}
+
+header .menu-btn > div {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 24px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--textcolor);
+}
+
+header .menu-btn > div:before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 0px;
+    width: 24px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--textcolor);
+}
+
+header .menu-btn > div:after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    width: 24px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--textcolor);
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: normal;
+    color: var(--textcolor);
+}
+
+header .close-btn {
+    position: absolute;
+    right: 16px;
+    top: 21px;
+    width: 24px;
+    height: 18px;
+    cursor: pointer;
+    user-select: none;
+}
+
+header .close-btn > div {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 24px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--textcolor);
+    transform: rotate(45deg);
+}
+
+header .close-btn > div:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--textcolor);
+    transform: rotate(-90deg);
+}
+
+header .action-menu {
+    position: absolute;
+    right: 16px;
+    top: 21px;
+    width: 24px;
+    height: 18px;
+    cursor: pointer;
+    user-select: none;
+}
+
+header .action-menu > div {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: var(--textcolor);
+}
+
+header .action-menu > div:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: -8px;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: var(--textcolor);
+}
+
+header .action-menu > div:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 8px;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: var(--textcolor);
+}
+
+.none {
+    display: none;
+    visibility: hidden;
+}

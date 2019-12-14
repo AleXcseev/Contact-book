@@ -1,0 +1,93 @@
+.menu {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(0deg, #344652 0%, #101F2A 100%);
+}
+
+.menu .menu-header {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.menu .menu-header h2 {
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: normal;
+    color: var(--lightbg);
+}
+
+.close-btn {
+    position: absolute;
+    left: 16px;
+    top: 21px;
+    width: 24px;
+    height: 18px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.close-btn > div {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 24px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--lightbg);
+    transform: rotate(45deg);
+}
+
+.close-btn > div:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--lightbg);
+    transform: rotate(-90deg);
+}
+
+.menu .contact-card {
+    margin-top: 0px;
+}
+
+.user-card-name {
+    color: var(--lightbg);
+}
+
+.user-card-text {
+    color: var(--accent);
+}
+
+.menu .contact-card .action-menu div,
+.menu .contact-card .action-menu div::before,
+.menu .contact-card .action-menu div::after{
+    background-color: var(--accent);
+}
+
+.categories-component {
+    margin-top: 32px;
+    opacity: 1;
+}
+
+.upcoming {
+    margin-top: 16px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: calc(100% - 32px);
+    margin: 0 16px;
+    height: 44px;
+    box-sizing: border-box;
+    border-top: 1px solid var(--lightbg);
+    
+}

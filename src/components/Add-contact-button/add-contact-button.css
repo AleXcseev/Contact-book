@@ -1,0 +1,40 @@
+.add-contact {
+    color: var(--lightbg);
+    opacity: 1;
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+    border: none;
+    background: inherit;
+}
+
+.add-contact div {
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--lightbg);
+    border-radius: 100%;
+    margin-right: 8px;
+    position: relative;
+}
+
+.add-contact div::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 1px;
+    height: 12px;
+    background-color: var(--lightbg);
+    transform: translate(-50%, -50%);
+}
+
+.add-contact div::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 1px;
+    background-color: var(--lightbg);
+    transform: translate(-50%, -50%);
+}

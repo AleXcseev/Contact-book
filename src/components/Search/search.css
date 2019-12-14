@@ -1,0 +1,23 @@
+.search {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 16px;
+}
+
+.search input {
+    width: 100%;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid var(--lightbg);
+    color: var(--lightbg);
+}
+
+.search button {
+    background-color: inherit;
+    border: none;
+}
+
+.search button img {
+    width: 14px;
+    height: 14px;
+}

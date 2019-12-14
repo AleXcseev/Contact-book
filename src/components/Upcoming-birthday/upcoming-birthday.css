@@ -1,0 +1,17 @@
+.upcoming-birthday {
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.5;
+    max-height: 148px;
+    overflow: auto;
+}
+
+.upcoming-birthday .title {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+    color: var(--catelement);
+    margin-bottom: 28px;
+}
