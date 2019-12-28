@@ -4,7 +4,7 @@ import React from "react";
 import "./contact-card.css";
 import Avatar from "../Avatar/Avatar";
 
-function ContactCard ({ name, surname, image }) {
+const ContactCard  = ({ name, surname, image }) => {
     return (
         <div className="contact-card">
             <Avatar image={ image }></Avatar>

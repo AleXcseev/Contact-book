@@ -1,4 +1,7 @@
 .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(0deg, #344652 0%, #101F2A 100%);
@@ -17,7 +20,7 @@
     color: var(--lightbg);
 }
 
-.close-btn {
+.menu .menu-header .close-btn {
     position: absolute;
     left: 16px;
     top: 21px;
@@ -27,7 +30,7 @@
     user-select: none;
 }
 
-.close-btn > div {
+.menu .menu-header .close-btn > div {
     position: absolute;
     top: 8px;
     left: 0px;
@@ -38,7 +41,7 @@
     transform: rotate(45deg);
 }
 
-.close-btn > div:before {
+.menu .menu-header .close-btn > div:before {
     content: "";
     position: absolute;
     top: 0px;

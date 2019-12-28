@@ -6,10 +6,14 @@ import Avatar from "../Avatar/Avatar";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
 
-function AddNewContact ({ name }) {
+const AddNewContact = ({name = "Add new contact"}) => {
+
     return (
         <div className="add-new-contact">
-            <Header closeBtn={ true } text={ name }></Header>
+            <Header 
+                closeBtn={ true }
+                text={ name }
+                ></Header>
             <Avatar big={ true }></Avatar>
             <form className="input-block">
                 <Input text={ "Name" } type={ "text" }></Input>

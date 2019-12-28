@@ -20,6 +20,7 @@
 .contact-card .user-card > div .user-card-name {
     font-weight: normal;
     line-height: 16px;
+    color: var(--darkbg);
 }
 
 .contact-card .user-card > div .user-card-text {

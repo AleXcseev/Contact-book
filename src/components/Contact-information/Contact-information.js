@@ -5,7 +5,7 @@ import bitmap from "../../img/Bitmap.png";
 import Header from "../Header/Header";
 import Avatar from "../Avatar/Avatar";
 
-function ContactInformation () {
+const ContactInformation = () => {
     return (
         <div className="contact-information">
             <Header actionMenu={ true } text={ "Andy Warhol" }></Header>

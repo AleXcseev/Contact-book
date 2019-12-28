@@ -5,7 +5,7 @@ import ContactCard from "../Contact-card/Contact-card";
 
 import "./all-contacts.css";
 
-function AllContacts() {
+const AllContacts = () => {
     const listOfContact = [
         {
             "_id": "58a446fcc26aaf13460533bd",
@@ -25,8 +25,8 @@ function AllContacts() {
             "surname": "Cshikhrai",
             "image": "/img/58a446fcc26aaf13460533bd/awerasef.jpg"
         }
-      ];
-      
+    ];
+
     const contactCards = listOfContact.map(item => {
         const { _id, ...itemProps } = item;
         return <ContactCard key={ _id } { ...itemProps }></ContactCard>
@@ -34,9 +34,9 @@ function AllContacts() {
 
     return (
         <div className="all-contacts">
-            <Header text={ "All contacts" }></Header>
+            <Header text={ "All contacts"}></Header>
             { contactCards }
-      </div>
+        </div>
     )
 }
 

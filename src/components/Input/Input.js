@@ -2,7 +2,7 @@ import React from "react";
 
 import "./input.css";
 
-function Input ({ text, type }) {
+const Input = ({ text, type }) => {
     let input;
 
     if (type === "textarea") {

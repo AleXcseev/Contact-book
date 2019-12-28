@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./menu.css";
 import bitmap from "../../img/Bitmap.png";
@@ -8,13 +9,15 @@ import Categories from "../Categories/Categories";
 import UpcomingBirthday from "../Upcoming-birthday/Upcoming-birthday";
 import AddContactButton from "../Add-contact-button/Add-contact-button";
 
-function Menu () {
+const Menu = () => {
     return (
         <div className="menu">
             <div className="menu-header">
-                <div className="close-btn">
-                    <div></div>
-                </div>
+                <Link to="/all-contacts">
+                    <div className="close-btn">
+                        <div></div>
+                    </div>
+                </Link>
                 <h2>Contact Book</h2>
             </div>
             <ContactCard name={ "Andy" } surname={ "Warhol" } image={ bitmap }></ContactCard>

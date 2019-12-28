@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./add-contact-button.css";
 
 function AddContactButton () {
     return (
-        <button className="add-contact"><div></div>Add contact</button>
+        <Link to="/add-new-contact"><div className="add-contact"><div></div>Add contact</div></Link>
     )
 }
 
